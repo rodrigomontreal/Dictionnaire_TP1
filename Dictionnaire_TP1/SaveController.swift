@@ -42,7 +42,7 @@ class SaveController: UIViewController {
     }
 //---------
     
-
+// Ajouter le mot selon le clé et le valeur correspondante
     func managerUser() {
         if UserDefaults.standard.object(forKey: "french") != nil {
                 arrFrench = UserDefaults.standard.object(forKey: "french") as! [String]
